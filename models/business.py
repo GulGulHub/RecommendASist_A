@@ -4,6 +4,7 @@ class Business:
         self.name = name
         self.contact = contact
         self.info = []
+        self.service= []
 
     def add_business_to_map(self):
         pass

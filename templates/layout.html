@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document_Layout</title>
+    <link rel="stylesheet" href="static/bootstrap.css">
+    <script src="static/bootstrap.bundle.js"></script>
+    {% block head %}{% endblock %}
+</head>
+<body>
+<div class="container">
+    <div class="row text-center mt-5 mb-5">
+        <h1> Recommend A Sist*A </h1>
+    </div>
+    <div class="row">
+        <div class="col-1  ">
+            <nav class="nav flex-column">
+                <a class="nav-link active" aria-current="page" href="#">What is recommend a Sist*a ?</a>
+                <a class="nav-link" href="#">Who and why Sist*A ?</a>
+                <a class="nav-link" href="#"> Sign UP or get in touch</a>
+            </nav>
+        </div>
+        <div class="col-11 gx-5 px-5 text-center">
+          {% block col %}{% endblock %}
+        </div>
+
+    </div>
+</div>
+{% block body %}{% endblock %}
+
+</body>
+</html>

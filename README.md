@@ -1,5 +1,5 @@
 """
-RecommandASist-A
+RecommendASist-A
 
 This App allows Private_Users to sign up and exchange information (recommend) about businesses or services of WomanLesbianAndTrans-People of color and allies in Berlin.
 
